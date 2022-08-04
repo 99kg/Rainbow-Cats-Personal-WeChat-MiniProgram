@@ -24,12 +24,12 @@
   <view class="form-group" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
     <view class="form-cell">
       <view class="slide">
-        <view class="title">欢迎！蓝卡比和红卡比！</view>
+        <view class="title">欢迎{{userA}}和{{userB}}~</view>
       </view>
     </view>
     <view class="form-cell">
       <view class="slide">
-        <view class="title">今天想做什么呢？</view>
+        <view class="title">今天又是想你的一天!</view>
       </view>
     </view>
   </view>
