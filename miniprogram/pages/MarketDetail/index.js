@@ -9,6 +9,7 @@ Page({
     from: '',
     to: '',
     maxCredit: getApp().globalData.maxCredit,
+    maxMarketCredit: getApp().globalData.maxMarketCredit,
     list: getApp().globalData.collectionMarketList,
   },
 
@@ -38,7 +39,7 @@ Page({
           item: data.result.data[0],
           dateStr: this.getDate(data.result.data[0].date).toDateString(),
           timeStr: this.getDate(data.result.data[0].date).toTimeString(),
-          creditPercent: (data.result.data[0].credit / getApp().globalData.maxCredit) * 100,
+          creditPercent: (data.result.data[0].credit / getApp().globalData.maxMarketCredit) * 100,
         })
 
         //确定商品关系并保存到本地

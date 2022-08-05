@@ -14,7 +14,7 @@
     <view class="form-cell">
       <view class="item-info_title">💰 商品价值：{{item.credit}} 积分</view>
       <progress percent="{{creditPercent}}" border-radius="5" font-size="8" duration="10" color="lightsalmon" active stroke-width="7"> 
-        <view class="item-info_credit">{{maxCredit}} 积分</view>
+        <view class="item-info_credit">{{maxMarketCredit}} 积分</view>
       </progress>
     </view>
     <view class="form-cell">

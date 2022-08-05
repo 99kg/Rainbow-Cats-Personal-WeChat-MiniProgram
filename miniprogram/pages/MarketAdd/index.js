@@ -6,6 +6,7 @@ Page({
     
     credit: 0,
     maxCredit: getApp().globalData.maxCredit,
+    maxMarketCredit: getApp().globalData.maxMarketCredit,
     presetIndex: 0,
     presets: [{
         name:"无预设",

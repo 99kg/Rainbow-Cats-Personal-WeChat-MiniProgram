@@ -1,6 +1,6 @@
 <view style="width:100%; background: none;">
 
-  <swiper indicator-dots="true" autoplay="true" interval="2000" duration="500" style="background: white; height: 200px; width: 100%;">
+  <swiper indicator-dots="true" autoplay="true" interval="3000" duration="500" style="background: white; height: 250px; width: 100%;">
       <swiper-item><image src="Images/HomeCover01.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
       <swiper-item><image src="Images/HomeCover02.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
       <swiper-item><image src="Images/HomeCover03.jpg" mode='widthFix' class="swiper-image" /></swiper-item>

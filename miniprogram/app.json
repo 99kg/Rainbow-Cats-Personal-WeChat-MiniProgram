@@ -12,14 +12,14 @@
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#ff99aa",
-    "navigationBarTitleText": "小梅和小橘的秘密基地",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FFE4B5",
+    "navigationBarTitleText": "💟 小梅 💘 小橘 💟",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#1a1a1a",
-    "selectedColor": "#ff99aa",
+    "selectedColor": "#FFE4B5",
     "list": [{
       "pagePath": "pages/MainPage/index",
       "selectedIconPath": "images/TabBar/HomeIconColor.jpg",
