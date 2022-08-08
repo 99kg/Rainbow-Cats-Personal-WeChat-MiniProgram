@@ -20,16 +20,16 @@
     </view>
 </view>
 
-<view class="form-group_label">🐻 欢迎回来</view>
+<view class="form-group_label">🐻 欢迎回家~ {{user}}</view>
   <view class="form-group" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
     <view class="form-cell">
       <view class="slide">
-        <view class="title">欢迎{{userA}}和{{userB}}~</view>
+        <view class="title">大宝贝，我们在一起已经<text style="color: #146c8f;font-weight: bold;font-size: 14px;">{{days}}</text>天啦~</view>
       </view>
     </view>
     <view class="form-cell">
       <view class="slide">
-        <view class="title">今天又是想你的一天!</view>
+        <view class="title">今天又是想你的一天~</view>
       </view>
     </view>
   </view>
