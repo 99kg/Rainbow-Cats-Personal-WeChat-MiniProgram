@@ -9,7 +9,6 @@ const db = cloud.database()
 // 云函数入口函数
 exports.main = async (context) => {
     try {
-        // 根据待办_openid，更新time
         return await db.collection(context.list).where({
             _openid: context._openid
         }).update({
