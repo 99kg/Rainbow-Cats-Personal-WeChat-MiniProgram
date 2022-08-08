@@ -6,32 +6,54 @@
       <swiper-item><image src="Images/HomeCover03.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
   </swiper>
 
-<view class="form-group_label">💰 积分榜</view>
-    <view class="form-group" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
+<view class="form-group_label">💰 家庭积分榜~</view>
+<view class="form-group" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
     <view class="form-cell">
         <view class="slide">
-        <view class="title">{{userA}}的积分：{{creditA}}</view>
+            <view class="title">{{userA}}的积分：{{creditA}}</view>
         </view>
     </view>
     <view class="form-cell">
         <view class="slide">
-        <view class="title">{{userB}}的积分：{{creditB}}</view>
+            <view class="title">{{userB}}的积分：{{creditB}}</view>
         </view>
     </view>
 </view>
 
-<view class="form-group_label">🐻 欢迎回家~ {{user}}</view>
-  <view class="form-group" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
+<view class="form-group_label">🌻 欢迎 {{user}} 回家~</view>
+<view class="form-group" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
     <view class="form-cell">
-      <view class="slide">
-        <view class="title">大宝贝，我们在一起已经<text style="color: #146c8f;font-weight: bold;font-size: 14px;">{{days}}</text>天啦~</view>
-      </view>
+        <view class="slide">
+            <view class="title">大宝贝，我们在一起已经<text style="color: #146c8f;font-weight: bold;font-size: 14px;">{{days}}</text>天啦~</view>
+        </view>
     </view>
     <view class="form-cell">
-      <view class="slide">
-        <view class="title">今天又是想你的一天~</view>
-      </view>
+        <view class="slide">
+            <view class="title">今天又是想你的一天~</view>
+        </view>
     </view>
-  </view>
+    </view>
+</view>
 
+<view class="form-group_label">💌 送给你的悄悄话~</view>
+<view class="form-group" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
+    <view class="form-cell">
+        <view class="slide">
+            <view class="title">{{text}}</view>
+        </view>
+    </view>
+</view>
+
+<view class="form-group_label">⏰ 上次登录时间~</view>
+<view class="form-group" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
+    <view class="form-cell">
+        <view class="slide">
+            <view class="title">{{userA}}：{{lastTimeA}}</view>
+        </view>
+    </view>
+    <view class="form-cell">
+        <view class="slide">
+            <view class="title">{{userB}}：{{lastTimeB}}</view>
+        </view>
+    </view>
 </view>
