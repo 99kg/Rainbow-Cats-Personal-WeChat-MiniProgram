@@ -1,4 +1,11 @@
+<scroll-view class="scroll-view" scroll-x="{{false}}">
 <view style="width:100%; background: none;">
+
+    <view class="ani-snow">
+        <block wx:for="{{50}}" wx:for-item="index" wx:for-index="__i0__" wx:key="*this">
+          <view class="snowflake"></view>
+        </block>
+    </view>
 
     <swiper indicator-dots="true" autoplay="true" interval="3000" duration="500" style="background: white; height: 250px; width: 100%;">
         <swiper-item><image src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/MainPage/HomeCover01.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
@@ -62,3 +69,4 @@
     </view>
 
 </view>
+</scroll-view>

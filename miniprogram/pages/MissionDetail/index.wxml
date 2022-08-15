@@ -1,5 +1,13 @@
 <wxs module="util" src="../util.wxs" />
 
+<scroll-view class="scroll-view" scroll-x="{{false}}">
+
+<view class="ani-snow">
+  <block wx:for="{{50}}" wx:for-item="index" wx:for-index="__i0__" wx:key="*this">
+    <view class="snowflake"></view>
+  </block>
+</view>
+
 <view class="container white" style="animation-name: animation-blur; animation-duration: 0.8s;">
   <image src="../../images/Mission.gif" mode='widthFix' />
   <view class="form-group" 
@@ -28,3 +36,4 @@
     </view>
   </view>
 </view>
+</scroll-view>

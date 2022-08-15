@@ -1,5 +1,12 @@
 <wxs module="util" src="../util.wxs" />
 
+<scroll-view class="scroll-view" scroll-x="{{false}}">
+<view class="ani-snow">
+  <block wx:for="{{50}}" wx:for-item="index" wx:for-index="__i0__" wx:key="*this">
+    <view class="snowflake"></view>
+  </block>
+</view>
+
 <view class="container white" wx:if="{{allItems.length === 0}}">
   <image class="background" src="Images/None.png" mode="aspectFit" />
   <view class="title">这里空空如也...</view>
@@ -44,3 +51,4 @@
     </view>
   </view>
 </view>
+</scroll-view>

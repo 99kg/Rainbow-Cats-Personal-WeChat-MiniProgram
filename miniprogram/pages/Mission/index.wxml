@@ -1,5 +1,12 @@
 <wxs module="util" src="../util.wxs" />
 
+<scroll-view class="scroll-view" scroll-x="{{false}}">
+<view class="ani-snow">
+  <block wx:for="{{50}}" wx:for-item="index" wx:for-index="__i0__" wx:key="*this">
+    <view class="snowflake"></view>
+  </block>
+</view>
+
 <view class="container white" wx:if="{{allMissions.length === 0}}">
   <image class="background" src="Images/None.png" mode="aspectFit" />
   <view class="title">暂无任务</view>
@@ -61,6 +68,7 @@ style="height: 250px; width: 100%; background: white; ">
     </view>
   </view>
 </view>
+</scroll-view>
 
 <movable-area style="pointer-events: none; position: fixed; width: 100%; height: 100%;">
   <movable-view style="pointer-events: auto; width: 20%; height: 20%;" x="{{screenWidth}}" y="{{screenHeight}}" direction="all">
