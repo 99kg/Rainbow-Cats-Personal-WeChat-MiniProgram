@@ -19,10 +19,11 @@
 </view>
 
 <swiper wx:if="{{allItems.length > 0}}" indicator-dots="true" autoplay="true" interval="3000" duration="500" 
-style="background: white; height: 250px; width: 100%;">
-  <swiper-item><image src="Images/MarketCover01.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
-  <swiper-item><image src="Images/MarketCover02.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
-  <swiper-item><image src="Images/MarketCover03.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
+style="background: white; height: 200px; width: 100%;">
+  <swiper-item><image src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/pic/5.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
+  <swiper-item><image src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/pic/6.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
+  <swiper-item><image src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/pic/7.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
+  <swiper-item><image src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/pic/8.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
 </swiper>
 
 <view class="container" wx:if="{{allItems.length > 0}}">

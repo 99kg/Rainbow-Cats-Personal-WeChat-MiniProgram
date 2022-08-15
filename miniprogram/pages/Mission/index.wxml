@@ -14,10 +14,11 @@
 </view>
 
 <swiper wx:if="{{allMissions.length > 0}}" indicator-dots="true" autoplay="true" interval="3000" duration="500" 
-style="height: 250px; width: 100%; background: white; ">
-      <swiper-item><image src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/Mission/MissionCover01.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
-      <swiper-item><image src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/Mission/MissionCover02.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
-      <swiper-item><image src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/Mission/MissionCover03.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
+style="height: 200px; width: 100%; background: white; ">
+      <swiper-item><image src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/pic/1.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
+      <swiper-item><image src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/pic/2.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
+      <swiper-item><image src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/pic/3.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
+      <swiper-item><image src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/pic/4.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
 </swiper>
 
 <view class="container" wx:if="{{allMissions.length > 0}}">
