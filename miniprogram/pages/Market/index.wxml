@@ -11,7 +11,7 @@
     <div style="position: absolute; top: 5px; right: 10px;">💰{{credit}} 积分</div>
 </view>
 
-<swiper wx:if="{{allItems.length > 0}}" indicator-dots="true" autoplay="true" interval="2000" duration="500" 
+<swiper wx:if="{{allItems.length > 0}}" indicator-dots="true" autoplay="true" interval="3000" duration="500" 
 style="background: white; height: 250px; width: 100%;">
   <swiper-item><image src="Images/MarketCover01.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
   <swiper-item><image src="Images/MarketCover02.jpg" mode='widthFix' class="swiper-image" /></swiper-item>

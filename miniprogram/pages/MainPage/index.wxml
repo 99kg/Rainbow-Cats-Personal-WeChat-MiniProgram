@@ -1,9 +1,9 @@
 <view style="width:100%; background: none;">
 
   <swiper indicator-dots="true" autoplay="true" interval="3000" duration="500" style="background: white; height: 250px; width: 100%;">
-      <swiper-item><image src="Images/HomeCover01.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
-      <swiper-item><image src="Images/HomeCover02.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
-      <swiper-item><image src="Images/HomeCover03.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
+      <swiper-item><image src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/MainPage/HomeCover01.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
+      <swiper-item><image src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/MainPage/HomeCover02.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
+      <swiper-item><image src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/MainPage/HomeCover03.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
   </swiper>
 
 <view class="form-group_label">💰 家庭积分榜~</view>
