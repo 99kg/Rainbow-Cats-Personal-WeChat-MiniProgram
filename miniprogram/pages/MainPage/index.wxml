@@ -1,10 +1,10 @@
 <view style="width:100%; background: none;">
 
-  <swiper indicator-dots="true" autoplay="true" interval="3000" duration="500" style="background: white; height: 250px; width: 100%;">
-      <swiper-item><image src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/MainPage/HomeCover01.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
-      <swiper-item><image src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/MainPage/HomeCover02.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
-      <swiper-item><image src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/MainPage/HomeCover03.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
-  </swiper>
+    <swiper indicator-dots="true" autoplay="true" interval="3000" duration="500" style="background: white; height: 250px; width: 100%;">
+        <swiper-item><image src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/MainPage/HomeCover01.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
+        <swiper-item><image src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/MainPage/HomeCover02.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
+        <swiper-item><image src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/MainPage/HomeCover03.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
+    </swiper>
 
     <view class="form-group_label">💰 家庭积分榜~</view>
     <view class="form-group" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
@@ -30,7 +30,7 @@
                 <view class="title"><text space="nbsp">        我们在一起</text><text style="color:#8bc06d; font-weight:bold; font-size:14px;">{{days}}</text>天啦，啦啦啦🔔~</view>
             </view>
             <view class="slide">
-                <view class="title"><text space="nbsp">        幸福转瞬即逝，一转眼，却已分开了</text><text style="color:#eec61694; font-weight:bold; font-size:14px;">{{leaveDays}}</text>个小时，呜呜呜😭~</view>
+                <view class="title"><text space="nbsp">        幸福却转瞬即逝，不知不觉已分开了</text><text style="color:#eec61694; font-weight:bold; font-size:14px;">{{leaveDays}}</text>小时，呜呜呜😭~</view>
             </view>
             <view class="slide">
                 <view class="title"><text space="nbsp">        (今天依旧是很想很想你的一天😢😢😢)</text></view>
