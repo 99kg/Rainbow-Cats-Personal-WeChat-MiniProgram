@@ -14,6 +14,9 @@ Page({
             {extClass: 'starBtn', text: '星标', src: "Images/icon_star.svg"},
             {extClass: 'removeBtn', text: '删除', src: 'Images/icon_del.svg'}
         ],
+
+        flag_go_up: false,
+        flag_go_down: false,
     },
     
     //页面加载时运行
@@ -161,5 +164,31 @@ Page({
             item.available = false
             this.filterItem()
         })
+    },
+
+    go_up: function(e){
+      var newflag = this.data.flag_go_up;
+      var newtext_go_up = this.data.text_go_up;
+      if (newflag) {
+        newflag = "";
+      } else {
+        newflag = true;
+      }
+      this.setData({
+        flag_go_up: newflag,
+      });
+    },
+  
+    go_down: function(e){
+      var newflag = this.data.flag_go_down;
+      var newtext_go_down = this.data.text_go_down;
+      if (newflag) {
+        newflag = "";
+      } else {
+        newflag = true;
+      }
+      this.setData({
+        flag_go_down: newflag,
+      });
     },
   })

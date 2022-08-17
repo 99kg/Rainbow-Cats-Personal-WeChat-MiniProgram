@@ -689,3 +689,11 @@ button::after {
   -webkit-filter: blur(1px);
   filter: blur(1px)
 }
+
+.img{
+  height: 40rpx;
+  width: 40rpx;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 82rpx;
+}

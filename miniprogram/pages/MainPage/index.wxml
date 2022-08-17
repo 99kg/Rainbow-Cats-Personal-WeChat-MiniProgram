@@ -18,12 +18,12 @@
     <view class="form-group" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
         <view class="form-cell">
             <view class="slide">
-                <view class="title">{{userA}}的积分：{{creditA}}</view>
+                <view class="title"><image class="img" src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/pic/crown.png"/><text space="nbsp">  {{userA}}的积分：{{creditA}}</text></view>
             </view>
         </view>
         <view class="form-cell">
             <view class="slide">
-                <view class="title">{{userB}}的积分：{{creditB}}</view>
+                <view class="title"><image class="img" src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/pic/love.png"/><text space="nbsp">  {{userB}}的积分：{{creditB}}</text></view>
             </view>
         </view>
     </view>

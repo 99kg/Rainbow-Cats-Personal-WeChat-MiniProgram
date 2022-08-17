@@ -32,8 +32,8 @@ style="background: white; height: 200px; width: 100%;">
     <input class="search-input" placeholder="搜索商品" bindinput="onSearch" value="{{search}}" />
   </view></view>
 
-  <view class="form-group_label">货架<mp-badge content="{{unboughtItems.length}}" style="margin-left: 5px;" /></view>
-  <view class="form-group" wx:if="{{unboughtItems.length > 0}}"   
+  <view class="form-group_label" bindtap="go_up" style="z-index: 1;">货架<mp-badge content="{{unboughtItems.length}}" style="margin-left: 5px;" /></view>
+  <view class="form-group" hidden="{{flag_go_up}}" wx:if="{{unboughtItems.length > 0}}"   
   style="z-index: 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
     <view class="form-cell" wx:for="{{unboughtItems}}" wx:key="index">
       <mp-slideview buttons="{{slideButtons}}" data-index='{{index}}' icon="{{true}}" bindbuttontap="slideButtonTapUpper">
@@ -53,8 +53,8 @@ style="background: white; height: 200px; width: 100%;">
     </view>
   </view>
 
-  <view class="form-group_label">已下架<mp-badge content="{{boughtItems.length}}" style="margin-left: 5px;" /></view>
-  <view class="form-group" wx:if="{{boughtItems.length > 0}}" 
+  <view class="form-group_label" bindtap="go_down" style="z-index: 1;">已下架<mp-badge content="{{boughtItems.length}}" style="margin-left: 5px;" /></view>
+  <view class="form-group" hidden="{{flag_go_down}}" wx:if="{{boughtItems.length > 0}}" 
   style="z-index: 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
     <view class="form-cell" wx:for="{{boughtItems}}" wx:key="index">
       <mp-slideview buttons="{{slideButtons}}" data-index='{{index}}' icon="{{true}}" bindbuttontap="slideButtonTapLower">
