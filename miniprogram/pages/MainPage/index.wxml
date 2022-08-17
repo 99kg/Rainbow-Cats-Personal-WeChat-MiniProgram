@@ -32,7 +32,7 @@
     <view class="form-group" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
         <view class="form-cell">
             <view class="slide">
-                <view class="title"><text style='text-decoration:underline; font-size:14px; font-weight: bold'>致亲爱的<text style="color:#146c8f;">大宝贝儿</text>:</text></view>
+                <view class="title"><image class="img" src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/pic/laba.png"/><text style='font-size:14px; font-weight: bold'><text space="nbsp">亲爱的<text style="color:#146c8f; text-decoration:underline; ">大宝贝儿</text>：</text></text></view>
             </view>
             <view class="slide">
                 <view class="title"><text space="nbsp">        我们在一起</text><text style="color:#8bc06d; font-weight:bold; font-size:14px;">{{days}}</text>天啦，啦啦啦🔔~</view>
@@ -50,7 +50,7 @@
     <view class="form-group" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
         <view class="form-cell">
             <view class="slide">
-                <view class="title">「{{text}}」</view>
+                <view class="title"><image class="img" src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/pic/sun.png"/><text space="nbsp">  {{text}}</text></view>
             </view>
         </view>
     </view>
@@ -59,12 +59,12 @@
     <view class="form-group" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
         <view class="form-cell">
             <view class="slide">
-                <view class="title">{{userA}}：{{lastTimeA}}</view>
+                <view class="title"><image class="img" src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/pic/clock.png"/><text space="nbsp">  {{userA}}：{{lastTimeA}}</text></view>
             </view>
         </view>
         <view class="form-cell">
             <view class="slide">
-                <view class="title">{{userB}}：{{lastTimeB}}</view>
+                <view class="title"><image class="img" src="cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/pic/clock.png"/><text space="nbsp">  {{userB}}：{{lastTimeB}}</text></view>
             </view>
         </view>
     </view>
