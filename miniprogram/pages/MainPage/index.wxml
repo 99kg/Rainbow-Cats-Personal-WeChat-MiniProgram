@@ -37,11 +37,11 @@
             <view class="slide">
                 <view class="title"><text space="nbsp">        我们在一起</text><text style="color:#8bc06d; font-weight:bold; font-size:14px;">{{days}}</text>天啦，啦啦啦🔔~</view>
             </view>
-            <view class="slide">
+            <view class="slide" hidden="true">
                 <view class="title"><text space="nbsp">        幸福却转瞬即逝，不知不觉已分开了</text><text style="color:#eec61694; font-weight:bold; font-size:14px;">{{leaveDays}}</text>小时，呜呜呜😭~</view>
             </view>
             <view class="slide">
-                <view class="title"><text space="nbsp">        (今天依旧是很想很想你的一天😢😢😢)</text></view>
+                <view class="title"><text space="nbsp">        (今天依旧是很想很想你的一天😋😋😋)</text></view>
             </view>
         </view>
     </view>
