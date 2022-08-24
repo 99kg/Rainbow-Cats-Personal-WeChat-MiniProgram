@@ -79,7 +79,6 @@ button::after {
     to {filter: blur(0px);}
 }
 
-
 .swiper-image{
   display: block;
   height: 100%; 

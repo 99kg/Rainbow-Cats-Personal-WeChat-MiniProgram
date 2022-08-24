@@ -55,6 +55,60 @@
         </view>
     </view>
 
+    <view class="form-group_label">🌞爱心天气~</view>
+    <view class="form-group" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
+        <view class="form-cell">
+            <view class="slide_we">
+                <view class="weather location1">
+                    <view>
+                    <view class='date' style='font-size: 16px; text-decoration-line: underline; text-decoration-style: double;'>大连</view>
+                    <view class='location'>{{basic1.parent_city}}/{{basic1.location}}</view>
+                    <view class='tmp'>{{today1.tmp_min}}℃ ~ {{today1.tmp_max}}℃</view>
+                    <view class='cond_txt'>{{today1.cond_txt_d}}</view>
+                    </view>
+                    <view>
+                    <view class='weather_icon'>
+                        <image src='{{Icon1}}'></image>
+                    </view>
+                    <view class='lastUpdateDate' style='text-decoration-line: underline;'>最后更新：{{update1}}</view>
+                    </view>
+                </view>
+            </view>
+            <view class="slide_we">
+                <view class="weather location2">
+                    <view>
+                        <view class='date' style='font-size: 16px; text-decoration-line: underline; text-decoration-style: double;'>瓦房店</view>
+                    <view class='location'>{{basic2.parent_city}}/{{basic2.location}}</view>
+                    <view class='tmp'>{{today2.tmp_min}}℃ ~ {{today2.tmp_max}}℃</view>
+                    <view class='cond_txt'>{{today2.cond_txt_d}}</view>
+                    </view>
+                    <view>
+                    <view class='weather_icon'>
+                        <image src='{{Icon2}}'></image>
+                    </view>
+                    <view class='lastUpdateDate' style='text-decoration-line: underline;'>最后更新：{{update2}}</view>
+                    </view>
+                </view>
+            </view>
+            <view class="slide_we">
+                <view class="weather location3">
+                    <view>
+                        <view class='date' style='font-size: 16px; text-decoration-line: underline; text-decoration-style: double;'>朝阳</view>
+                    <view class='location'>{{basic3.parent_city}}/{{basic3.location}}</view>
+                    <view class='tmp'>{{today3.tmp_min}}℃ ~ {{today3.tmp_max}}℃</view>
+                    <view class='cond_txt'>{{today3.cond_txt_d}}</view>
+                    </view>
+                    <view>
+                    <view class='weather_icon'>
+                        <image src='{{Icon3}}'></image>
+                    </view>
+                    <view class='lastUpdateDate' style='text-decoration-line: underline;'>最后更新：{{update3}}</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
     <view class="form-group_label">⏰ 上次登录时间~</view>
     <view class="form-group" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
         <view class="form-cell">

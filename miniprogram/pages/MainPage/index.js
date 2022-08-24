@@ -15,6 +15,19 @@ Page({
 
         lastTimeA: '',
         lastTimeB: '',
+
+        update1: '',
+        update2: '',
+        update3: '',
+        basic1:{},
+        basic2:{},
+        basic3:{},
+        today1:{},
+        today2:{},
+        today3:{},
+        Icon1:'cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/weather/999.png',
+        Icon2:'cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/weather/999.png',
+        Icon3:'cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/weather/999.png',
     },
 
     async onShow(){
@@ -42,6 +55,9 @@ Page({
         this.getLastTimeB()
         this.setTime()
         this.getApi()
+        this.getWeatherInfo(101070210);
+        this.getWeatherInfo(101070202);
+        this.getWeatherInfo(101071202);
     },
 
     getCreditA(){
@@ -69,6 +85,44 @@ Page({
         wx.cloud.callFunction({name: 'getElementByOpenId', data: {list: getApp().globalData.collectionUserList, _openid: getApp().globalData._openidB}})
         .then(res => {
             this.setData({lastTimeB: this.timeTransfer(res.result.data[0].date)})
+        })
+    },
+
+    getWeatherInfo: function(locationId){
+        var _this = this;
+        var key = '6dcb8719353e40298a5804e116005d70';
+        var url = 'https://free-api.heweather.com/s6/weather?key='+ key + '&location=' + locationId;
+        wx.request({
+          url: url,
+          data: {},
+          method: 'GET',
+          success: function (res) {
+            var daily_forecast_today = res.data.HeWeather6[0].daily_forecast[0];
+            var basic = res.data.HeWeather6[0].basic;
+            var update = res.data.HeWeather6[0].update.loc;
+            if (locationId === 101070210) {
+                _this.setData({
+                    update1: update,
+                    basic1: basic,
+                    today1: daily_forecast_today,
+                    Icon1: 'cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/weather/' + daily_forecast_today.cond_code_d+'.png',
+                    });
+            } else if (locationId === 101070202){
+                _this.setData({
+                    update2: update,
+                    basic2: basic,
+                    today2: daily_forecast_today,
+                    Icon2: 'cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/weather/' + daily_forecast_today.cond_code_d+'.png',
+                    });
+            } else {
+                _this.setData({
+                    update3: update,
+                    basic3: basic,
+                    today3: daily_forecast_today,
+                    Icon3: 'cloud://cloud1-8gsci1tx7054b5f1.636c-cloud1-8gsci1tx7054b5f1-1258169206/weather/' + daily_forecast_today.cond_code_d+'.png',
+                    });
+            }
+          }
         })
     },
 
@@ -174,7 +228,7 @@ Page({
                 if (re.test(textResult.charAt(textResult.length - 1))) {
                     textResult = textResult.concat('。');
                 }
-                if (textResult.length <= 30) {
+                if (textResult.length <= 26) {
                     that.setData({text: textResult})
                 } else {
                     that.setData({text: textArr[Math.floor(Math.random() * (textArr.length - 1))]})
