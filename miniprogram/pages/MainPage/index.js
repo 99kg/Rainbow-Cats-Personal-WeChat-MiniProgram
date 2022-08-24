@@ -231,7 +231,11 @@ Page({
                 if (textResult.length <= 26) {
                     that.setData({text: textResult})
                 } else {
-                    that.setData({text: textArr[Math.floor(Math.random() * (textArr.length - 1))]})
+                    textResult = textArr[Math.floor(Math.random() * (textArr.length - 1))];
+                    if (re.test(textResult.charAt(textResult.length - 1))) {
+                        textResult = textResult.concat('。');
+                    }
+                    that.setData({text: textResult})
                 }
             }
           },
